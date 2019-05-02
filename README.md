@@ -20,6 +20,12 @@
 
 	echo "export PYTHONPATH=$PYTHONPATH=/home/username/models/research:home/username/models/slim">> ~/.bashrc
 
+如果执行protoc命令出错，查看一下protoc版本
+	
+	protoc --version
+
+若小于3.4，请下载源码重新编译安装一遍
+
 If you get an error on the protoc command on Ubuntu, check the version you are running with protoc --version, <br>
 if it's not the latest version, you might want to update. As of my writing of this, we're using 3.4.0. <br>
 In order to update or get protoc, head to the protoc releases page. Download the python version, extract, <br>
@@ -60,3 +66,10 @@ https://github.com/tzutalin/labelImg
 最后一步，train.py训练
 
 	python3 train.py --logtostderr --train_dir=training/ --pipeline_config_path=config/ssd_mobilenet_v1_pets.config
+
+参考链接：
+
+https://pythonprogramming.net/introduction-use-tensorflow-object-detection-api-tutorial/
+
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
+
