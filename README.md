@@ -1,6 +1,6 @@
 # Tensorflow-object-detection-tutorial
 
-## 其他的python依赖包
+## 安装python依赖包
 
 	pip install pillow
 	pip install lxml
@@ -30,7 +30,6 @@ navigate into the directory and then do: <br>
 	sudo make install
 	sudo ldconfig
 
-# Tensorflow object-detection-tutorial
 
 ## Clone github repositories 
 	
