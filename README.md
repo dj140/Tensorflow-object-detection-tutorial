@@ -68,12 +68,13 @@ https://github.com/tzutalin/labelImg
 	python3 train.py --logtostderr --train_dir=training/ --pipeline_config_path=config/ssd_mobilenet_v1_pets.config
 
 
+导出训练模型
 
-python3 export_inference_graph.py \
-    --input_type image_tensor \
-    --pipeline_config_path training/ssd_mobilenet_v1_pets.config \
-    --trained_checkpoint_prefix training/model.ckpt-10856 \
-    --output_directory mac_n_cheese_inference_graph
+	python3 export_inference_graph.py \
+    	    --input_type image_tensor \
+    	    --pipeline_config_path config/ssd_mobilenet_v1_pets.config \
+    	    --trained_checkpoint_prefix training/model.ckpt-28144 \
+    	    --output_directory traffic_light_28144
 参考链接：
 
 https://pythonprogramming.net/introduction-use-tensorflow-object-detection-api-tutorial/
