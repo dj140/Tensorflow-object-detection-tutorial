@@ -37,9 +37,10 @@ navigate into the directory and then do: <br>
 	sudo ldconfig
 
 
-## Clone github repositories 
+## 安装
 	
-	git clone https://github.com/dj140/Tensorflow.git
+	sudo python3 setup.py install
+
 
 ## Install labelImg
 
