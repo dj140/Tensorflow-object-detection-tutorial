@@ -6,7 +6,14 @@
 	pip install lxml
 	pip install jupyter
 	pip install matplotlib
+## The remaining libraries can be installed on Ubuntu 16.04 using via apt-get:
 
+	sudo apt-get install protobuf-compiler python-pil python-lxml python-tk
+	pip install --user Cython
+	pip install --user contextlib2
+	pip install --user jupyter
+	pip install --user matplotlib
+	
 ## 下载tensorflow模型
 
 	git clone https://github.com/tensorflow/models.git
